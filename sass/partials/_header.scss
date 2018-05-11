@@ -1,0 +1,50 @@
+$header_height : 80px;
+
+header {
+   width: $main_blocks_width;
+   height: $header_height;
+   position: relative;
+
+   .header-cnt {
+      height: $header_height;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      width: $inner_blocks_width;
+   }
+
+   .logo-cnt {
+      width: auto;
+      height: $header_height;
+
+      .icon {
+         width: auto;
+         height: $header_height;
+         position: relative;
+
+         img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+         }
+      }
+   }
+
+   .items-cnt {
+      width: auto;
+      height: $header_height;
+      line-height: $header_height;
+      display: flex;
+
+      .item {
+         margin: 0 20px;
+         line-height: $header_height;
+      }
+   }
+
+
+
+
+
+
+}
